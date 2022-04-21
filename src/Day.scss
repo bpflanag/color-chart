@@ -1,0 +1,78 @@
+.day-container {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+  outline: 10px solid rgb(63, 64, 66);
+  box-shadow: 18px 18px 18px rgba(0, 0, 0, .45),
+             -18px 18px 18px rgba(0, 0, 0, .45);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  .inner-square {
+    width: 130px;
+    height: 130px;
+    // box-shadow: 18px 18px 18px rgba(0, 0, 0, .45);
+    background-color: white;
+    border-radius: 5px;
+    transition: .15s ease;
+  }
+
+  .outer-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    transition: .15s ease;
+    // border-radius: 5px;
+  }
+
+  .blue-hover {
+    border-bottom-right-radius: 7px;
+  }
+
+  .blue-hover:hover {
+    background-color: rgb(34, 85, 250);
+  }
+
+  .blue {
+    background-color: rgb(34, 85, 250);
+  }
+
+  .red {
+    background-color: rgb(187, 26, 26);
+  }
+
+  .red-hover {
+    border-bottom-left-radius: 7px;
+  }
+
+  .red-hover:hover {
+    background-color: rgb(187, 26, 26);
+  }
+
+  .green {
+    background-color: rgb(7, 165, 7);
+  }
+
+  .green-hover  {
+    border-top-right-radius: 7px;
+  }
+
+  .green-hover:hover{
+    background-color: rgb(7, 165, 7);
+  }
+
+  .yellow {
+    background-color: rgb(211, 211, 31);
+  }
+
+  .yellow-hover {
+    border-top-left-radius: 7px;
+  }
+  
+  .yellow-hover:hover {
+    background-color: rgb(211, 211, 31);
+  }
+}

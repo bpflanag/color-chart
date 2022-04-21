@@ -1,9 +1,10 @@
 import './App.scss';
+import Day from './Day';
 
 function App() {
   return (
     <div className="App">
-      <p>hi</p>
+      <Day/>
     </div>
   );
 }
